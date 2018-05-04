@@ -17,14 +17,14 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/syndtr/goleveldb/leveldb/errors"
-	"github.com/syndtr/goleveldb/leveldb/iterator"
-	"github.com/syndtr/goleveldb/leveldb/journal"
-	"github.com/syndtr/goleveldb/leveldb/memdb"
-	"github.com/syndtr/goleveldb/leveldb/opt"
-	"github.com/syndtr/goleveldb/leveldb/storage"
-	"github.com/syndtr/goleveldb/leveldb/table"
-	"github.com/syndtr/goleveldb/leveldb/util"
+	"github.com/benchlab/goleveldb/leveldb/errors"
+	"github.com/benchlab/goleveldb/leveldb/iterator"
+	"github.com/benchlab/goleveldb/leveldb/journal"
+	"github.com/benchlab/goleveldb/leveldb/memdb"
+	"github.com/benchlab/goleveldb/leveldb/opt"
+	"github.com/benchlab/goleveldb/leveldb/storage"
+	"github.com/benchlab/goleveldb/leveldb/table"
+	"github.com/benchlab/goleveldb/leveldb/util"
 )
 
 // DB is a LevelDB database.
